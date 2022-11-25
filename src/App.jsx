@@ -64,6 +64,7 @@ function App() {
             className="twitter-share-button" 
             href={`https://twitter.com/intent/tweet?text="${text}"%0a~${author}`} 
             target="_blank"
+            id="tweet-quote"
           >
               <FontAwesomeIcon 
                 icon={faTwitter} 
